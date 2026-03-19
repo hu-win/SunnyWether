@@ -48,6 +48,8 @@ dependencies {
     implementation 'com.google.android.material:material:1.5.0'
     implementation 'com.squareup.retrofit2:retrofit:2.6.1'
     implementation 'com.squareup.retrofit2:converter-gson:2.6.1'
-    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.0'
-    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.1.1'
+//    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.0'
+//    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.1.1'
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4" // 使用最新稳定版
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4"
 }
